@@ -203,12 +203,23 @@ input::-webkit-inner-spin-button {
     }
 
     #solve,
-    #refresh {
+    #refresh,
+    .output {
         font-size: medium;
     }
 
     .left,
     .right {
         width: 90%;
+        padding: 10px;
+    }
+
+    .outputTag {
+        width: 80%;
+    }
+
+    input::placeholder,
+    .boxSelect {
+        font-size: small;
     }
 }
