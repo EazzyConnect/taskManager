@@ -154,25 +154,26 @@ input::-webkit-inner-spin-button {
 
 
 @media screen and (max-width:800px) {
-    .main{
+    .main {
         flex-direction: column;
         height: 90vh;
+        width: 85%;
     }
 
-    section{
+    section {
         height: 120vh;
     }
 
-    .box{
+    .box {
         height: 45%;
         width: 70%;
     }
 
-    .formGroup{
+    .formGroup {
         margin-bottom: 0;
     }
 
-    #selectCurrency{
+    #selectCurrency {
         height: 30px;
     }
 
@@ -185,7 +186,7 @@ input::-webkit-inner-spin-button {
     }
 
     button {
-        width:30%;
+        width: 40%;
         height: 35px;
     }
 
@@ -198,6 +199,16 @@ input::-webkit-inner-spin-button {
     }
 
     #headText {
-        font-size: 50px;
-}
+        font-size: 30px;
+    }
+
+    #solve,
+    #refresh {
+        font-size: medium;
+    }
+
+    .left,
+    .right {
+        width: 90%;
+    }
 }
